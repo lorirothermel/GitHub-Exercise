@@ -17,6 +17,7 @@ struct ContentView: View {
             Text("Version 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            Rectangle()
         }  // VStack
         .padding()
         .foregroundColor(.blue)
